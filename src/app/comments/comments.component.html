@@ -1,0 +1,11 @@
+<form #f="ngForm" (ngSubmit)="save(f.value)">
+<div class="form-group">
+<div class="input-group">
+  <label for="content">your comment:    </label><p>  </p>
+  <input #content="ngModel"  [(ngModel)]="contentText" type="text" name="content" placeholder="comment" class="form-control">
+ 
+</div>
+</div>
+<button class="btn btn-outline-secondary" click="save()" >ps</button>
+</form>
+

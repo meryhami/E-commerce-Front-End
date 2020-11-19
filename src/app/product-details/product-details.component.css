@@ -1,0 +1,17 @@
+.card-footer {
+    padding: 0;
+  }
+
+.row {
+    padding: 3em;
+
+}
+
+.card-img {
+    width: 30%;
+    border-radius: calc(0.25rem - 1px);
+}
+.card-title
+{
+    padding-left: 0%;
+}
